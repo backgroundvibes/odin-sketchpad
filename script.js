@@ -1,5 +1,6 @@
-
+let grid = document.querySelector(".container")
 for (let i = 0; i < 16; i++) {
     let gridSegment = document.createElement("div")
-    document.body.appendChild(gridSegment)
+    gridSegment.className = "section"
+    grid.appendChild(gridSegment)
 }
