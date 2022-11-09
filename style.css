@@ -4,7 +4,22 @@ body {
     align-items: center;
 }
 
-.section {
-    height: 10px;
-    width: 10px;
+.container {
+    border: solid darkred;
+    display: flex;
+    width: 400px;
+    height: 400px;
+}
+
+.column {
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+.row {
+    border: 1px solid black;
+    display: flex;
+    flex-grow: 1;
 }
