@@ -15,3 +15,15 @@ function addRows(gridColumn) {
 
 let columns = document.querySelectorAll(".column")
 columns.forEach(addRows)
+
+let rowSegments = document.querySelectorAll(".row")
+
+function pen (gridRow) {
+    gridRow.addEventListener('mouseover', () => gridRow.classList.add("black"))
+}
+
+function hover (gridRow) {
+    gridRow.classList.add("black")
+}
+
+rowSegments.forEach(pen)
