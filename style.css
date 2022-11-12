@@ -13,7 +13,6 @@ body {
 
 .column {
     margin: 0px;
-    border: 1px solid black;
     display: flex;
     flex-grow: 1;
     flex-direction: column;
@@ -21,7 +20,6 @@ body {
 
 .row {
     margin: 0px;
-    border: 1px solid black;
     display: flex;
     flex-grow: 1;
 }
